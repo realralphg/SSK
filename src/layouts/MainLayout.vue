@@ -3,9 +3,9 @@
     <q-header elevated>
       <q-toolbar>
 
-        <a href="/"><img src="logos/logo1240.png" style="height: 40px; max-width: 40px; padding-top: 5px;"></a>
+        <a href="/"><img src="images/fistlogo.png" style="height: 50px; max-width: 40px; padding-top: 5px;"></a>
 
-        <q-toolbar-title class=" ">
+        <q-toolbar-title class="text-red">
           <router-link to="/" tag="span" style="cursor: pointer"> SSK.org </router-link>
         </q-toolbar-title>
 
@@ -16,6 +16,7 @@
           flat
           dense
           round
+          color="red"
           icon="menu"
           aria-label="Menu"
           @click="leftDrawerOpen = !leftDrawerOpen"
@@ -47,7 +48,7 @@
       content-class="bg-primary"
     >
       <q-list>
-        <q-item-label header class="text-white text-h5 text-weight-light">
+        <q-item-label header class="text-red text-h5 text-weight-light">
           SSK.org
         </q-item-label>
 

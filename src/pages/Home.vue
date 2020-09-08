@@ -1,8 +1,9 @@
 <template>
   <div>
     <div class="row">
-      <span class="shade text-weight-light text-center text-h4 q-pa-md">Save Southern Kaduna.org</span>
-      <span class="text-weight-light q-px-md"> The only thing necessary for the 
+      <span class="shade text-white text-center text-h4 q-pa-md">Save Southern Kaduna.org</span>
+      <br> <br>
+      <span class="text-weight-light q-mt-md q-px-md"> The only thing necessary for the 
         triumph of evil is for good men to do nothing! <br>- Edmund Burke</span>
         
       <div class="col-md-8 col-sm-8 col-xs-12 ">
@@ -93,7 +94,7 @@ export default {
   .shade{  
     text-align: center;
     padding: 10px;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(245, 6, 6, 0.562);
     border-radius: 15px 15px 15px 15px;
     margin-bottom: 5px;
     margin-right: 5px;
